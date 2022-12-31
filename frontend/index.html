@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Workman - Artisan Services Platform</title>
+</head>
+<body>
+  <h1>Welcome to Workman</h1>
+  <p>Connect with local artisans in your area</p>
+
+  <form action="/search" method="get">
+    <label for="location">Enter your location:</label><br>
+    <input type="text" id="location" name="location"><br>
+    <br>
+    <label for="service">Select a service:</label><br>
+    <select id="service" name="service">
+      <option value="barber">Barber</option>
+      <option value="tailor">Tailor</option>
+      <option value="hairdresser">Hair Dresser</option>
+      <option value="electrician">Electrician</option>
+      <option value="mechanic">Mechanic</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Search">
+  </form> 
+</body>
+</html>
